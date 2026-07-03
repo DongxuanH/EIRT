@@ -1,8 +1,15 @@
-# Evidential Item Response Theory
+# Evidential Item Response Theory to Quantify Uncertainty of Cognitive Diagnosis
 
 ## Abstract
 In cognitive diagnosis, understanding student ability with uncertainty is critical for personalized education and reliable decision-making. In this work, we propose Evidential Item Response Theory (EvidentIRT) to quantify student ability uncertainty in an inductive manner. EvidentIRT is a variational autoen-coder for item response data that models latent ability with a Normal-Inverse Gamma (NIG) posterior, from which aleatoric and epistemic uncertainty can be read out in closed form. Given a student’s observed response vector, the encoder predicts item-wise pseudo-observations, which are aggregated through conjugate NIG updates into a global posterior over the latent ability. This design predicts ability directly from the response vector, instead of optimizing the embedding for each student, and remains efficient because uncertainty is obtained in a single forward pass. The decoder reconstructs response patterns from the uncertain latent representation, while the loss penalizes overconfident reconstruction errors through a zero-evidence prior. Experiments on real-world assessment datasets show that EvidentIRT preserves or improves predictive performance and yields uncertainty estimates that align with response coverage and response patterns.
 
+## Citation  
+If you use this code or data, please cite our paper accepted at **ECML-PKDD 2026**:
+
+> **Evidential Item Response Theory to Quantify Uncertainty of Cognitive Diagnosis**    
+> Dongxuan Han, Shuanghong Shen, Xin Zhang1, Bin Feng, Xinjie Sun, Siqi Lei, Shiwei Tong, and Wei Huang 
+> *European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD 2026)*    
+> 📄 *Full paper to be uploaded soon.*  
 
 ### Run EvidentIRT
 To fit a EvidentIRT model, use the following command:
