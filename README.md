@@ -8,6 +8,7 @@ If you use this code or data, please cite our paper accepted at **ECML-PKDD 2026
 
 > **Evidential Item Response Theory to Quantify Uncertainty of Cognitive Diagnosis**    
 > Dongxuan Han, Shuanghong Shen, Xin Zhang1, Bin Feng, Xinjie Sun, Siqi Lei, Shiwei Tong, and Wei Huang 
+
 > *European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD 2026)*    
 > 📄 *Full paper to be uploaded soon.*  
 
